@@ -1,0 +1,331 @@
+
+ {
+	"name": "Aqua Codes",
+  "type": "dark",
+  
+  "colors": {
+    "editor.background": "#000516", // Main Editor Color
+    "editor.foreground": "#dadfe1",
+    "editorLineNumber.foreground": "#5c6b80", // Main Secondary
+    "editorLineNumber.activeForeground": "#6ba9ff",
+    "editor.selectionBackground": "#396cb335",
+    "editor.wordHighlightBackground": "#396cb335",
+    "editor.lineHighlightBorder": "#000516",
+    // Gutter
+    "editorGutter.modifiedBackground": "#daa520",
+    "editorGutter.addedBackground": "#5ac95a",
+    "editorGutter.deletedBackground": "#f64747",
+    // Buttons
+    "button.background": "#3D3199",
+    "button.foreground": "#dadfe1",
+    "button.hoverBackground": "#995b31",
+    // Activity Bar
+    "activityBar.background": "#050505",
+    "activityBar.foreground": "#5D81B3",
+    "activityBarBadge.background": "#5D81B3",
+    "activityBarBadge.foreground": "#000516",
+    // Sidebar
+    "sideBar.background": "#000516",
+    "sideBar.foreground": "#5c6b80",
+    "sideBar.border": "#1b213b",
+    "sideBarTitle.foreground": "#5c6b80",
+    "sideBarSectionHeader.background": "#000516",
+    "sideBarSectionHeader.foreground": "#5c6b80",
+    "sideBarSectionHeader.border": "#5c6b80",
+    // Lists and trees
+    "list.hoverBackground": "#396cb335",
+    "list.hoverForeground": "#dadfe1",
+    "list.focusBackground": "#396cb335",
+    "list.focusForeground": "#5c6b80",
+    "list.activeSelectionBackground": "#1c2341",
+    "list.activeSelectionForeground": "#dadfe1",
+    "list.inactiveSelectionBackground": "#1c2341",
+    "list.inactiveSelectionForeground": "#dadfe1",
+    // Input control
+    "input.background": "#396cb335",
+    "input.foreground": "#dadfe1",
+    // MiniMap
+    "minimap.findMatchHighlight": "#396cb335",
+    "minimap.selectionHighlight": "#396cb335",
+    // Editor Groups & Tabs
+    "editorGroup.border": "#232b4e",
+    "editorGroup.dropBackground": "#000516",
+    "editorGroupHeader.tabsBackground": "#000516",
+    "tab.activeBackground": "#1c2341",
+    "tab.activeForeground": "#8c9db4",
+    "tab.unfocusedActiveBackground": "#1a203b",
+    "tab.inactiveBackground": "#0e1224",
+    "tab.inactiveForeground": "#5c6b80",
+    // Status Bar
+    "statusBar.background": "#050505",
+    "statusBar.foreground": "#6287bb",
+    "statusBar.debuggingBackground": "#050505",
+    "statusBar.debuggingForeground": "#6287bb",
+    "statusBar.noFolderBackground": "#050505",
+    "statusBar.noFolderForeground": "#6287bb"
+  },
+  "tokenColors": [
+    // Blue
+    {
+      "name": "Blue #6bb9f0",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.name.function",
+        "support.function.any-method",
+        // CSS
+        "entity.name.tag.css",
+        // JS
+        "entity.other.inherited-class.js",
+        "keyword.control.loop.js",
+        "support.function.console.js",
+        "support.function.math.js",
+        "support.variable.property.process.js",
+        "storage.type.js",
+        "variable.other.constant.js",
+        // JSON
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json",
+        "string.quoted.double.json",
+        // Markdown
+        "markup.underline.link.markdown",
+        // Python
+        "meta.function-call.generic.python",
+        "meta.function-call.arguments.python",
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.special.cls.python",
+        "variable.language.special.self.python",
+        "support.function.builtin.python",
+        // Swift
+        "keyword.control.loop.swift",
+        // SQL
+        "keyword.other.sql",
+        "keyword.other.DML.sql",
+        "keyword.other.LUW.sql",
+        "keyword.other.create.sql",
+        // Dart
+        "support.class.dart"
+      ],
+      "settings": {
+        "foreground": "#6bb9f0"
+      }
+    },
+    // Green
+    {
+      "name": "Green #98fb98",
+      "scope": [
+        "heading",
+        "support.type",
+        "punctuation.definition.decorator",
+        // CSS
+        "keyword.control.at-rule.media.css",
+        "keyword.operator.logical.and.media.css",
+        "entity.other.attribute-name.class.css",
+        // JS
+        "entity.name.type.js",
+        "variable.parameter.js",
+        // Markdown
+        "punctuation.definition.heading.markdown",
+        // Python
+        "variable.parameter.function.language.python",
+        "support.function.builtin.python",
+        "meta.item-access.arguments.python",
+        "entity.name.function.decorator.python",
+        // SQL
+        "support.function.conversion.sql",
+        "support.function.datetime.sql",
+        // TypeScript
+        "variable.parameter.ts",
+        "variable.parameter.tsx",
+        // Dart
+        "entity.name.function.dart"
+      ],
+      "settings": {
+        "foreground": "#98fb98"
+      }
+    },
+    // Grey
+    {
+      "name": "Grey #6B8080",
+      "scope": ["comment", "string.quoted.docstring.multi.python"],
+      "settings": {
+        "foreground": "#6B8080"
+      }
+    },
+    // Light Grey
+    {
+      "name": "Light Grey #D6DEEB",
+      "scope": [
+        "source.python",
+        "source.js",
+        "source.css",
+        "source.tsx",
+        "source.json",
+        "source.swift",
+        "text.html.derivative",
+        "variable.other.readwrite",
+        "variable.other.readwrite.js",
+        "variable.other.constant.js"
+      ],
+      "settings": {
+        "foreground": "#D6DEEB"
+      }
+    },
+    // Grey Blue
+    {
+      "name": "Grey Blue #638BB3",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.from",
+        "keyword.control.conditional",
+        "entity.name.tag",
+        "punctuation.definition.tag",
+        // CSS
+        "support.type.property-name.css",
+        // JS
+        "meta.object-literal.key.js",
+        "support.class.console.js",
+        "support.constant.math.js",
+        "support.function.js",
+        "variable.other.object.property.js",
+        "variable.other.property.js",
+        // Python
+        "keyword.control.import.python",
+        // TypeScript
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.tsx",
+        // GraphQL
+        "variable.graphql"
+      ],
+      "settings": {
+        "foreground": "#638BB3"
+      }
+    },
+    // Peach
+    {
+      "name": "Peach #FFA07A",
+      "scope": [
+        "constant",
+        "markup.quote.markdown",
+        "string.other.link.title.markdown"
+      ],
+      "settings": {
+        "foreground": "#FFA07A"
+      }
+    },
+
+    // Pink
+    {
+      "name": "Pink #FC6399",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "keyword.operator.relational",
+        "keyword.operator.comparison",
+        "keyword.other.alias.sql",
+        // CSS
+        "entity.other.attribute-name.id.css",
+        "support.constant.media.css",
+        "keyword.other.important.css",
+        // Markdown
+        "punctuation.definition.list.begin.markdown",
+        // Rust
+        "keyword.other.fn.rust",
+        "keyword.other.rust",
+        "storage.class.std.rust",
+        "storage.modifier.mut.rust"
+      ],
+      "settings": {
+        "foreground": "#FC6399"
+      }
+    },
+    // Purple
+    {
+      "name": "Purple #9370DB",
+      "scope": [
+        "storage.type",
+        "storage.type.class",
+        "storage.type.function",
+        "keyword.control.flow",
+        "keyword.other.declaration-specifier",
+        "keyword.control.at-rule.apply",
+        // CSS
+        "keyword.control.at-rule.css",
+        // JS
+        "variable.other.object.js",
+        "support.variable.object.process.js",
+        "storage.modifier.js",
+        "variable.other.property.js",
+        "keyword.control.export.js",
+        "keyword.control.default.js",
+        "support.class.builtin.js",
+        "punctuation.accessor.js",
+        // TypeScript
+        "keyword.control.export.ts",
+        "keyword.control.default.ts",
+        "keyword.control.export.tsx",
+        "keyword.control.default.tsx",
+        // GraphQL
+        "variable.parameter.graphql",
+        // Dart
+        "keyword.control.dart",
+        "keyword.declaration.dart",
+        "storage.modifier.dart"
+      ],
+      "settings": {
+        "foreground": "#bf90d4"
+      }
+    },
+    // Turquoise
+    {
+      "name": "Turquoise #2ECCB0",
+      "scope": [
+        "string.quoted",
+        "string.template",
+        "variable.other.readwrite.alias",
+        // CSS
+        "support.constant.property-value.css",
+        // JS
+        "support.class.component.js",
+        "entity.name.type.class.js",
+        "entity.name.type.module.js",
+        // JSON
+        "support.type.property-name.json",
+        "string.quoted.single.python",
+        // TypeScript
+        "entity.name.type.ts",
+        "entity.name.type.class.ts",
+        "entity.name.type.tsx",
+        "entity.name.type.class.tsx",
+        // Dart
+        "string.interpolated.single.dart"
+      ],
+      "settings": {
+        "foreground": "#2ECCB0"
+      }
+    },
+    // Yellow
+    {
+      "name": "Yellow #f5d76e",
+      "scope": [
+        "variable.other.property",
+        // JS
+        "variable.other.constant.property.js",
+        "variable.other.readwrite.js",
+        "variable.language.this.js",
+        // Markdown
+        "punctuation.definition.bold.markdown",
+        // Python
+        "entity.name.type.class.python",
+        "punctuation.section.class.begin.python",
+        // TypeScript
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.tsx",
+        // Dart
+        "variable.parameter.dart"
+      ],
+      "settings": {
+        "foreground": "#f5d76e"
+      }
+    }
+  ]
+}
