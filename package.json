@@ -1,0 +1,37 @@
+{
+  "name": "aqua-codes", 
+  "displayName": "Aqua Codes",
+  "description": "Dark themes for coding (by SubUx)",
+  "publisher": "AquaCodes",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git", 
+    "url": "https://github.com/python019/aqua-codes-vscode-extension"
+  },
+  "keywords": [
+      "Theme",
+      "Dark Theme",
+      "Aqua",
+      "Blue Theme"
+  ],
+  "scripts": {
+      "publish-minor": "vsce publish minor",
+      "publish-major": "vsce publish major"
+  },
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "aqua.jpg",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aqua Codes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Aqua Codes-color-theme.json"
+      }
+    ]
+  }
+}
