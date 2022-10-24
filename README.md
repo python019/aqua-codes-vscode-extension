@@ -29,10 +29,6 @@ A Visual Studio Code theme inspired by the dark of the night. With coding at nig
 6.  Click **Reload** to reload the Code
 7.  From the menu bar click: Code > Preferences > Color Theme > **Aqua Codes**
 
-## Preferences shown in the preview
-
-Icons in the preview are from [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
 ## Authors
 
 Authored by Jumayev Ubaydullo
