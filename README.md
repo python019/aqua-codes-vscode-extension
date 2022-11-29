@@ -5,7 +5,7 @@
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/AquaCodes.aqua-codes?style=for-the-badge)
 [![vscode](https://img.shields.io/badge/vscode-v1.30+-093277.svg?style=for-the-badge)](https://code.visualstudio.com/updates/v1_30) 
 
-A Visual Studio Code theme inspired by the dark of the night. With coding at night in mind, the colour choices have been taking into consideration with accessibility in mind
+A Visual Studio Code theme inspired by the dark of the night. With coding at night in mind, the colour choices have been taking into consideration with accessibility in mind.
 
 # Aqua Codes
 
